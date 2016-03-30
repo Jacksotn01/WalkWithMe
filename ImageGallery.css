@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: Impact, sans-serif;
+  border-style: solid;
+  color: gray;
+}
+
+h1:hover {
+  background-color: white;
+  color: orange;
+}
+
+body {
+  background-color: #FDF5E6;
+}
+
+.gallery {
+  width: 100%;
+  height: auto;
+  float: left; 
+  display: inline block;
+}
+
+.size {
+  width: 400px;
+  height: 500px;
+}
