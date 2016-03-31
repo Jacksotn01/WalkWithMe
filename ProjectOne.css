@@ -1,6 +1,31 @@
+.top {
+  font-family: "Times New Roman";
+  text-align: center;
+  font-size: 40px;
+  padding-top: 300px;
+
+}
+
+.top a {
+  color: #0066cc;;
+  /*padding: 100px;*/
+  text-decoration: none; 
+  letter-spacing: 3px;
+}
+
+.top a:hover {
+  text-decoration: none;
+  color: gray;
+  -moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
+}
+
+
+
+
+
 .camera {
   width: 100%;
-  height: 600px;
+  height: 650px;
   text-align: center;
   background-size: cover;
   /*background-repeat: no-repeat;*/
@@ -25,6 +50,7 @@
 
 .heading:hover {
   color: #800020;
+  -moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
 }
 
 .NavBar {
@@ -53,6 +79,7 @@
 
 .NavBar li a:hover {
   color: #800020;
+  -moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
 }
 .TravelAbout {
   text-align: center;
@@ -69,6 +96,7 @@
 
 .TravelAbout:hover {
   color: gray;
+  -moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
 }
 
 .Second {
@@ -79,95 +107,76 @@
   letter-spacing: 3px;
   margin: 10px;
   padding-top: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .Second:hover {
   color: gray;
+  -moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
 }
 
-/*h1:hover {
-  background-color: white;
-  text-decoration: underline;
-}
-
-nav {
-  width: 100%;
-}
-
-ul {
-  list-style-type: none;
-  text-align: center;
-  font-size: 30px;
-}
-
-ul li a{
+.images img {
+  width: 440px;
+  height: 500px;
+  border-radius: 200px;
   display: inline-block;
-  text-decoration: none;
-  color: white;
-
-
-}
-
-ul li a:hover {
-  color: #FF8C00;
-}
-
-
-.First {
-  width: 900px;
-  margin: 0 auto;
-  font-family: sans-serif;
-  font-size: 25px;
-  color: white;
-  text-align: center;
-  border-style: double;
-  border-color: orange;
-
-}
-
-
-.Second {
-
-  width: 900px;
-  margin: 0 auto;
-  margin-top: 5%;
-  padding: 5%;
-  font-family: sans-serif;
-  font-size: 20px;
-  color: #2F4F4F;
-  border-style: dotted;
-  border-color: white;
-}
-
-.Third {
-
-  width: 900px;
-  margin: 0 auto;
-  margin-top: 5%;
-  padding: 5%;
-  font-family: sans-serif;
-  font-size: 20px;
-  color: white;
-  border-style: double;
-  border-color: orange;
+  float: left; 
+  padding: 5px;
   text-align: center;
 }
 
-.bottom {
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10%;
-
-}
-
-h3 {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  text-transform: uppercase;
-  background-color: orange;
-  color: white;
+/*.thailand {
+  width: 440px;
+  height: 500px;
+  border-radius: 200px;
 }
 */
+
+.images2 img {
+  width: 440px;
+  height: 500px;
+  border-radius: 200px;
+  display: inline-block;
+  float: left; 
+  padding-top: 5px;
+  text-align: center;
+}
+
+.images2 {
+  padding-top: 100px;
+}
+
+.SocialMediaBar {
+    list-style-type: none;
+    margin: 40px;
+    margin: 60px;
+    padding: 20px;
+    width: 500px;
+    height: 350%;
+    top: 120px;
+    background-color: #0066cc;
+    position: fixed; 
+    font-family: "Times New Roman";
+    font-size: 20px;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    float: left;
+    opacity: .8;
+    font-weight: bold;
+    z-index: 10;
+    color: gray;
+    
+}
+
+.SocialMediaBar li a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-family: "Times New Roman";
+  color: white;
+}
+
+.SocialMediaBar li {
+  display: inline-block;
+{
+
+
