@@ -1,18 +1,15 @@
-h1 {
+
+.Footprints {
+  font-family: "Times New Roman";
   text-align: center;
-  font-size: 60px;
-  font-family: Impact, sans-serif;
-  border-style: solid;
-  color: gray;
-}
-
-h1:hover {
-  background-color: white;
-  color: orange;
-}
-
-body {
-  background-color: #FDF5E6;
+  letter-spacing: 4px;
+  font-size: 40px;
+  color: black;
+  margin: 20px;
+  padding: 100px;
+  height: 20%;
+  word-spacing: 4px;
+  width: 100%;
 }
 
 .gallery {
@@ -22,7 +19,44 @@ body {
   display: inline block;
 }
 
+.gallery img {
+  border-radius: 200px;
+}
+
 .size {
   width: 400px;
   height: 500px;
 }
+
+.SocialMediaBar {
+    list-style-type: none;
+    margin: 40px;
+    margin: 60px;
+    padding: 20px;
+    width: 500px;
+    height: 350%;
+    top: 120px;
+    background-color: #0066cc;
+    position: fixed; 
+    font-family: "Times New Roman";
+    font-size: 20px;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    float: left;
+    opacity: .8;
+    font-weight: bold;
+    z-index: 10;
+    color: gray;
+    
+}
+
+.SocialMediaBar li a {
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-family: "Times New Roman";
+  color: white;
+}
+
+.SocialMediaBar li {
+  display: inline-block;
+{

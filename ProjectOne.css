@@ -7,7 +7,7 @@
 }
 
 .top a {
-  color: #0066cc;;
+  color: #0066cc;
   /*padding: 100px;*/
   text-decoration: none; 
   letter-spacing: 3px;
@@ -125,12 +125,76 @@
   text-align: center;
 }
 
+.hover {
+  display: none;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: #0066cc;
+  letter-spacing: 3px;
+}
+
+.hover2 {
+  display: none;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: #0066cc;
+  letter-spacing: 3px;
+}
+
+.hover3 {
+  display: none;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: #0066cc;
+  letter-spacing: 3px;
+}
+
+.hover4 {
+  display: none;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: #0066cc;
+  letter-spacing: 3px;
+}
+
+.hover5 {
+  display: none;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: #0066cc;
+  letter-spacing: 3px;
+}
+
+.hover6 {
+  display: none;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman";
+  color: #0066cc;
+  letter-spacing: 3px;
+}
 /*.thailand {
   width: 440px;
   height: 500px;
   border-radius: 200px;
 }
 */
+
+/*#wrapper .text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+}
+
+#wrapper:hover .text {
+visibility:visible;
+}*/
 
 .images2 img {
   width: 440px;
@@ -145,6 +209,11 @@
 .images2 {
   padding-top: 100px;
 }
+
+/*.social {
+  height: 5px;
+  width: 5px;
+}*/
 
 .SocialMediaBar {
     list-style-type: none;

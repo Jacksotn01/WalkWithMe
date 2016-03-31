@@ -1,0 +1,98 @@
+.sunglasses {
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  background-image: url("images/sunglasses.gif");
+  margin: 20px;
+  padding: 10px;
+}
+
+.NavBar {
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+    height: 20%;
+    word-spacing: 20px;
+    text-align: center;
+}
+
+
+.NavBar li {
+  display: inline-block;
+}
+
+.NavBar li a {
+  color: black;
+  font-family: "Times New Roman";
+  list-style-type: none;
+  letter-spacing: 4px;
+  font-size: 40px;
+  text-decoration: none;
+
+}
+
+.NavBar li a:hover {
+  color: #800020;
+  -moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
+}
+
+.heading {
+  font-family: "Times New Roman";
+  text-align: left;
+  letter-spacing: 0px;
+  font-size: 40px;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  height: 20%;
+  word-spacing: 1px;
+  width: 100%;
+}
+
+.heading:hover {
+  color: #800020;
+  -moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
+}
+
+.Bangkok {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman";
+  color: black;
+  letter-spacing: 3px;
+  margin: 10px;
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+
+}
+
+.Bangkok:hover {
+  color: gray;
+  -moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
+}
+
+.Bangkok2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman";
+  color: black;
+  letter-spacing: 3px;
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 200px;
+}
+
+.Bangkok2:hover {
+  color: gray;
+  -moz-box-shadow: 0 0 10px #ccc; -webkit-box-shadow: 0 0 10px #ccc; box-shadow: 0 0 10px #ccc;
+}
+
+.video {
+  width: 700px; 
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
